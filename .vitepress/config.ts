@@ -5,7 +5,7 @@ export default defineConfig({
   lang: "zh-CN",
   title: "WSVAIO",
   description: "我的个人博客",
-  outDir: "dict",
+  outDir: "docs",
   themeConfig: {
     siteTitle: "WSVAIO",
     logo: "/logo.jpg",
