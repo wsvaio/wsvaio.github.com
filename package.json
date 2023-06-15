@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "upload:wsvaio.cn": "pnpm docs:build && scp -r ./dist/* root@wsvaio.cn:/app/nginx/bloging"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.65"
+  }
+}
